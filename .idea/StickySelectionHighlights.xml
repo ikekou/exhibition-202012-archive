@@ -3,6 +3,16 @@
   <component name="StickySelectionHighlights">
     <option name="editorHighlights">
       <map>
+        <entry key="$PROJECT_DIR$/assets/css/index.css">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/index.html">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/assets/css/index.css">
           <value>
             <PaintGroupHighlightMap />
