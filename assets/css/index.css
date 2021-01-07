@@ -1,69 +1,108 @@
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    min-width: 750px;
+    padding: 0 100px;
+    font-size: 14pt;
+}
+
 .content {
-  margin: 0 auto;
-  width: 1080px;
+    margin: 0 auto;
+    max-width: 1080px;
 }
+
 .box {
-  /* background: blue; */
+    /* background: blue; */
 }
+
 .box-row {
-  display: flex;
-  /* background: red; */
-  margin-bottom: 2px;
+    display: flex;
+    /* background: red; */
+    margin-bottom: 2px;
 }
+
 .box-row:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .box-item {
-  margin-right: 2px;
+    margin-right: 2px;
 }
+
 .box-item:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
+
 .box-row img {
-  width: 100%;
-  vertical-align: bottom;
+    width: 100%;
+    vertical-align: bottom;
 }
+
 .matted-picture {
-  width: 100%;
-  background: #f8f8f8;
-  margin-bottom: 10px;
+    width: 100%;
+    background: #f8f8f8;
+    margin-bottom: 10px;
 }
+
 .matted-picture > img {
-  width: 100%;
-  height: auto;
-  transform: scale(0.65);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-}
-h1,h2,h3{
-font-family: dnp-shuei-gothic-kin-std,sans-serif;
-font-weight: 600;
-font-style: normal;
-}
-body{
-font-family: dnp-shuei-gothic-kin-std,sans-serif;
-font-weight: 400;
-font-style: normal;
+    width: 100%;
+    height: auto;
+    transform: scale(0.65);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
-
-.fuga{
-    width:100%;
+h1, h2, h3 {
+    font-family: dnp-shuei-gothic-kin-std, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-h2{
-    margin-top:64px;
-}
-h3{
-    margin-top:32px;
+body {
+    font-family: dnp-shuei-gothic-kin-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size:18px;
 }
 
 
+.fuga {
+    width: 100%;
+}
 
-.artwork{
-  margin-top:64px;
+h1 {
+    font-size:32px;
+}
+
+p {
+    font-feature-settings: "palt" 1;
+}
+
+h2 {
+    font-size:26px;
+}
+
+h3 {
+    font-size:21px
+}
+
+
+.artwork {
+    margin-top: 64px;
+}
+
+a{
+    color:#000;
+}
+a:hover{
+    background:black;
+    color:white;
 }
